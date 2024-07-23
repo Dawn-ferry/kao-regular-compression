@@ -1,13 +1,19 @@
+### 快速开始
+
+~~~
+1.安装npm包
+npm i 
+~~~
+
 ### 使用说明
 
 ~~~
-
-1. 使用npm自定义命令 -- key=value
+1.参数
 input=E:\\source ===>要打包的目录
-output=E:\\output_directory ===>压缩后的目录
-1.1各个平台会导致额不兼容
-npm run dev -- PORT=8080 input=E:\source   output=E:\source\output_directory
-1.2使用cross-env提供命令的兼容性
+output=E:\\source\output_directory ===>压缩后的目录
+2.命令
 npx cross-env input=E:\\source output=E:\\source\output_directory node app.js
 
+
+npx cross-env input=E:\\source output=E:\\output_directory node app.js
 ~~~
