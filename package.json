@@ -3,7 +3,8 @@
     "archiver": "^7.0.1",
     "cross-env": "^7.0.3",
     "koa": "^2.15.3",
-    "ora": "^8.0.1"
+    "ora": "^8.0.1",
+    "progress-stream": "^2.0.0"
   },
   "scripts": {
     "dev": "nodemon demo.js",
