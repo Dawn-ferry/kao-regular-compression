@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cross-env": "^7.0.3",
+    "koa": "^2.15.3"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node ./app.js server PORT=8081",
+    "crv": "cross-env PORT=3000 NODE_ENV=production node app.js"
+  }
+}
